@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-image: url(&quot;file:/Users/tomek/Downloads/FinalSolarSystem/src/main/resources/icons/Space.jpeg&quot;);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalsolarsystem.DurationController">
+   <children>
+      <Button layoutX="110.0" layoutY="344.0" mnemonicParsing="false" onAction="#acceptButton" stylesheets="@../../../styling/buttonAccept.css" text="Accept" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icons/Galaxy.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+      <Text fill="WHITE" layoutX="32.0" layoutY="20.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Change duration for each planet">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Line endX="100.0" layoutX="153.0" layoutY="31.0" opacity="0.4" startX="-100.0" stroke="WHITE" />
+      <Text fill="WHITE" layoutX="12.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mercury - " />
+      <Text fill="WHITE" layoutX="11.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Venus - " />
+      <Text fill="WHITE" layoutX="14.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Earth - " />
+      <Text fill="WHITE" layoutX="15.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mars - " />
+      <Text fill="WHITE" layoutX="91.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jupiter - " />
+      <Text fill="WHITE" layoutX="170.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Saturn - " />
+      <Text fill="WHITE" layoutX="175.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Uran - " />
+      <Text fill="WHITE" layoutX="161.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neptun - " />
+      <Text fill="WHITE" layoutX="170.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pluto - " />
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="139.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/Jupiter.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="68.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/Mars.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="210.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/neptune.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="209.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/pluto.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="68.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/merkury.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="68.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/Venus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="207.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/Ringed%20Planet.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="211.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/Uranus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="68.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/earth.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="mercury" alignment="CENTER" layoutX="82.0" layoutY="59.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+      <TextField fx:id="venus" alignment="CENTER" layoutX="82.0" layoutY="118.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+      <TextField fx:id="earth" alignment="CENTER" layoutX="82.0" layoutY="177.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+      <TextField fx:id="mars" alignment="CENTER" layoutX="82.0" layoutY="236.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+      <TextField fx:id="jupiter" alignment="CENTER" layoutX="152.0" layoutY="293.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+      <TextField fx:id="saturn" alignment="CENTER" layoutX="226.0" layoutY="59.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+      <TextField fx:id="uran" alignment="CENTER" layoutX="226.0" layoutY="119.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+      <TextField fx:id="neptun" alignment="CENTER" layoutX="226.0" layoutY="177.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+      <TextField fx:id="pluto" alignment="CENTER" layoutX="226.0" layoutY="236.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #A983D2;" />
+   </children>
+</AnchorPane>
