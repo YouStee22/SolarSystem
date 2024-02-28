@@ -12,8 +12,8 @@ Z dostępnych funkcji mamy:
 
 Użyte techonolgie:
 
-Java ♨️
-JavaFX wraz z SceneBuilder
+- Java ♨️
+- JavaFX wraz z SceneBuilder
 
 📋Instalacja:📋
 
